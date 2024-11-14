@@ -1,0 +1,101 @@
+body{
+	background-image: url('./../image//ff.avif');
+	display: flex;
+	align-items: center;
+	min-height: 100vh;
+	
+}
+
+.container{
+	background-color:#7878;
+	padding: 20px;
+	border-radius: 10px;
+	max-width: 70%;
+	width: 100%;
+	margin: 100px auto ;
+}
+
+h1{
+	text-align: center;
+	color: black;
+	margin-bottom: 16px;
+	text-shadow: 3px 3px black ;
+	color: white;
+	
+}
+
+.search-box{
+ 	width: 100%;
+ 	margin-bottom: 10px;
+ }
+
+.search-box #search{
+	width: 100%;
+	padding: 10px;
+	border-radius: 5px;
+	border: 2px solid black;
+	font-size: 15px;
+	box-shadow: 2px 2px #567999 ;
+
+}
+
+.result-container{
+	margin-top: 20px;
+
+}
+
+.word-info {
+	margin-bottom: 20px;
+
+}
+
+
+.word-info h2{
+	font-size:20px;
+	color: #333;
+}
+
+.word-info p{
+	font-size:20px;
+	color: black;
+}
+
+.phonetics{
+	display: flex;
+	align-items: center;
+	gap: 15px;
+	margin-bottom: 20px;
+
+}
+
+
+.Audio{
+      cursor: pointer;
+}
+
+
+.port-of-speach{
+	font-size: bold;
+	color: red;
+	text-transform: capitalize;
+	margin-bottom: 10px;
+	font-size: 20px;
+}
+
+.definition{
+	margin-bottom: 5px;
+	color: black;
+
+}
+
+.Example{
+	color: darkblue  ;
+	font-style: italic;
+	font-weight: bold;
+
+}
+
+.word-info + word-info{
+	margin-top: 50px;
+
+}
